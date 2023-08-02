@@ -1,0 +1,127 @@
+body{
+    background: yellowgreen;
+    padding-bottom: 0%;
+    padding-left: 0%;
+
+}
+
+.logo{
+    /* margin-top: 30px; */
+    margin-bottom: 30px;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 20px;
+    margin-left: 0%;
+    background-image: url(./cana!.png);
+    background-repeat: no-repeat;
+    display: grid;
+    background-size: contain;
+    
+}
+
+nav{
+    min-width: 45%;
+    font-size: x-large;
+    display: flex;
+    margin-bottom: 30px;
+    padding-bottom: 5rem;
+    padding-left: 20rem;
+    align-self: flex-start;
+    justify-content: space-between;
+    gap: -1rem;  
+}
+
+.sidebar{
+    background-color: aquamarine;
+    margin-top: 0%;
+    padding-bottom: 0%;
+
+}
+
+.portfolio{
+    background-color: mediumorchid;
+    /* width: 100px; */
+    min-height: 100vh;
+    font-size: larger;
+    padding-top: 0%;
+    display: grid;
+    grid-template-rows: repeat(4,100px) ;
+    grid-template-columns: repeat(5,1fr);
+    gap: 0.3em;
+}
+
+.item1{
+    background-color: burlywood;
+    justify-content: center;
+    align-content: center;
+    grid-row: span 3;
+    grid-column: span 1;
+    border-radius: 10%;
+
+}
+.item2{
+    background-color: magenta;
+    grid-row: span 3;
+    grid-column:span 1 ;
+    border-radius: 10%;
+}
+.item2{
+    background-color: magenta;
+    grid-row: span 3;
+    grid-column:span 2 ;
+    border-radius: 10%;
+}
+.item3{
+    background-color: magenta;
+    grid-row: span 2;
+    grid-column:span 2 ;
+    border-radius: 10%;
+}
+.item4{
+    background-color: magenta;
+    grid-row: span 4;
+    grid-column:span 2 ;
+    border-radius: 10%;
+}
+.item5{
+    background-color: magenta;
+    grid-row: span 1;
+    grid-column:span 1 ;
+    border-radius: 10%;
+}
+.item6{
+    background-color: magenta;
+    grid-row: span 1;
+    grid-column:span 2 ;
+    border-radius: 10%;
+}
+.item7{
+    background-color: magenta;
+    grid-row: span 2 ;
+    grid-column:span 3;
+    /* border-top-left-radius: 10%; */
+    border-radius: 10%;
+}
+.uv{
+    background-image: url(./cana!.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+span{
+    /* background-color: rgb(230, 46, 147); */
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    
+}   
+
+/* @media (min-546px){
+    nav{
+        grid-auto-flow: column;
+    }
+}
+     */
+
+
+
